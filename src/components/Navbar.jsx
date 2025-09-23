@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to='/about'>About</Link>
         </div>
         <div className="text-3xl sm:text-2xl font-extrabold">
-          <a href="/">Sanjay Billa</a>
+          <Link to="/">Sanjay Billa</Link>
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm">
           <Link to='/projects'>Projects</Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to='/about' onClick={closeMobileMenu}>About</Link></li>
             <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
-            <li><Link to='/experience' onClick={closeMobileMenu}>Experince</Link></li>
+            <li><Link to='/experience' onClick={closeMobileMenu}>Experience</Link></li>
             <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
           </ul>
         </div>
