@@ -63,7 +63,7 @@ export const project = [
         title:'Co People',
         description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
         image: {copeople},
-        git:'https://github.com/nithingooud/CoPeople',
+        git:'',
         technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
     }
 ]
